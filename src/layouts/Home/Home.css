@@ -1,0 +1,28 @@
+.Home>* {
+    border: #282c34 1px solid;
+}
+
+.categoriesBar {
+    position: fixed;
+    top: 6vh;
+    bottom: 0;
+    left: 0;
+    width: 30vh;
+    background-color: rgb(226, 226, 226);
+    text-transform: capitalize;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 6vh;
+    bottom: 0;
+    right: 0;
+    width: calc(100vw - 31vh);
+    background-color: rgb(226, 226, 226);
+}
+
+h3 {
+    border-bottom: black 1px solid;
+}
